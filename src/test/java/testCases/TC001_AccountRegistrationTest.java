@@ -9,25 +9,45 @@ public class TC001_AccountRegistrationTest extends BaseClass {
 
     @Test
     public void accountRegistrationTest(){
-        HomePage homePage = new HomePage(driver);
-        homePage.clickMyAccount();
-        homePage.clickRegister();
+        logger.info("********** TC01 Account Registration Test Started **********");
 
-        AccountRegistrationPage accountRegistrationPage = new AccountRegistrationPage(driver);
+        try{
+            HomePage homePage = new HomePage(driver);
+            homePage.clickMyAccount();
+            logger.info("Clicked on My Account Link");
+            homePage.clickRegister();
+            logger.info("Clicked on Register Link");
 
-        accountRegistrationPage.setFirstName(randomString());
-        accountRegistrationPage.setLastName(randomString());
-        accountRegistrationPage.setEmail(randomString() + "@xyz.com");
-        accountRegistrationPage.setTelephone(randomInteger());
+            AccountRegistrationPage accountRegistrationPage = new AccountRegistrationPage(driver);
 
-        String password = "@" + randomAlphanumeric();
-        accountRegistrationPage.setPassword(password);
-        accountRegistrationPage.setConfirmPassword(password);
-        accountRegistrationPage.setPrivacyPolicy();
-        accountRegistrationPage.clickContinue();
+            accountRegistrationPage.setFirstName(randomString());
+            logger.info("First Name added");
+            accountRegistrationPage.setLastName(randomString());
+            logger.info("Last Name added");
+            accountRegistrationPage.setEmail(randomString() + "@xyz.com");
+            logger.info("Email added");
+            accountRegistrationPage.setTelephone(randomInteger());
+            logger.info("Telephone added");
 
-        String confirmationMessage = accountRegistrationPage.getConfirmationMsg();
-        Assert.assertEquals(confirmationMessage, "Your Account Has Been Created!");
+            String password = "@" + randomAlphanumeric();
+            accountRegistrationPage.setPassword(password);
+            logger.info("Password added");
+            accountRegistrationPage.setConfirmPassword(password);
+            logger.info("Conf Password added");
+            accountRegistrationPage.setPrivacyPolicy();
+            logger.info("Privacy Policy Set");
+            accountRegistrationPage.clickContinue();
+            logger.info("Clicked on Continue Button");
+
+            logger.info("Validating error message");
+            String confirmationMessage = accountRegistrationPage.getConfirmationMsg();
+            Assert.assertEquals(confirmationMessage, "Your Account Has Been Created!");
+        }catch (Exception e){
+            logger.error("Test Failed");
+            logger.debug("Debug Logs");
+            Assert.fail();
+        }
+
     }
-    
+
 }
