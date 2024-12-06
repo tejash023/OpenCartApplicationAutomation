@@ -9,7 +9,7 @@ public class TC001_AccountRegistrationTest extends BaseClass {
 
     @Test
     public void accountRegistrationTest(){
-        logger.info("********** TC01 Account Registration Test Started **********");
+        logger.info("********** Started TC01 Account Registration Test **********");
 
         try{
             HomePage homePage = new HomePage(driver);
@@ -47,6 +47,7 @@ public class TC001_AccountRegistrationTest extends BaseClass {
             logger.debug("Debug Logs");
             Assert.fail();
         }
+        logger.info("********** Finished TC01 Account Registration Test **********");
 
     }
 

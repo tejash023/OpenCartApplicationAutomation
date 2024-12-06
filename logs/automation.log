@@ -1,0 +1,43 @@
+2024-12-06 21:02:45 INFO  TC001_AccountRegistrationTest:26 - ****** Test Started ********
+2024-12-06 21:02:45 INFO  TC001_AccountRegistrationTest:12 - ********** Started TC01 Account Registration Test **********
+2024-12-06 21:02:45 INFO  TC001_AccountRegistrationTest:17 - Clicked on My Account Link
+2024-12-06 21:02:46 INFO  TC001_AccountRegistrationTest:19 - Clicked on Register Link
+2024-12-06 21:02:46 INFO  TC001_AccountRegistrationTest:24 - First Name added
+2024-12-06 21:02:46 INFO  TC001_AccountRegistrationTest:26 - Last Name added
+2024-12-06 21:02:46 INFO  TC001_AccountRegistrationTest:28 - Email added
+2024-12-06 21:02:46 INFO  TC001_AccountRegistrationTest:30 - Telephone added
+2024-12-06 21:02:46 INFO  TC001_AccountRegistrationTest:34 - Password added
+2024-12-06 21:02:46 INFO  TC001_AccountRegistrationTest:36 - Conf Password added
+2024-12-06 21:02:46 INFO  TC001_AccountRegistrationTest:38 - Privacy Policy Set
+2024-12-06 21:02:47 INFO  TC001_AccountRegistrationTest:40 - Clicked on Continue Button
+2024-12-06 21:02:47 INFO  TC001_AccountRegistrationTest:42 - Validating error message
+2024-12-06 21:02:47 INFO  TC001_AccountRegistrationTest:50 - ********** Finished TC01 Account Registration Test **********
+2024-12-06 21:02:47 INFO  TC001_AccountRegistrationTest:32 - ****** Test Completed ********
+2024-12-06 21:06:26 INFO  TC001_AccountRegistrationTest:26 - ****** Test Started ********
+2024-12-06 21:06:26 INFO  TC001_AccountRegistrationTest:12 - ********** Started TC01 Account Registration Test **********
+2024-12-06 21:06:26 INFO  TC001_AccountRegistrationTest:17 - Clicked on My Account Link
+2024-12-06 21:06:27 INFO  TC001_AccountRegistrationTest:19 - Clicked on Register Link
+2024-12-06 21:06:27 INFO  TC001_AccountRegistrationTest:24 - First Name added
+2024-12-06 21:06:27 INFO  TC001_AccountRegistrationTest:26 - Last Name added
+2024-12-06 21:06:27 INFO  TC001_AccountRegistrationTest:28 - Email added
+2024-12-06 21:06:27 INFO  TC001_AccountRegistrationTest:30 - Telephone added
+2024-12-06 21:06:27 INFO  TC001_AccountRegistrationTest:34 - Password added
+2024-12-06 21:06:27 INFO  TC001_AccountRegistrationTest:36 - Conf Password added
+2024-12-06 21:06:27 INFO  TC001_AccountRegistrationTest:38 - Privacy Policy Set
+2024-12-06 21:06:28 INFO  TC001_AccountRegistrationTest:40 - Clicked on Continue Button
+2024-12-06 21:06:28 INFO  TC001_AccountRegistrationTest:42 - Validating error message
+2024-12-06 21:06:35 INFO  TC001_AccountRegistrationTest:32 - ****** Test Completed ********
+2024-12-06 21:07:06 INFO  TC001_AccountRegistrationTest:26 - ****** Test Started ********
+2024-12-06 21:07:06 INFO  TC001_AccountRegistrationTest:12 - ********** Started TC01 Account Registration Test **********
+2024-12-06 21:07:06 INFO  TC001_AccountRegistrationTest:17 - Clicked on My Account Link
+2024-12-06 21:07:07 INFO  TC001_AccountRegistrationTest:19 - Clicked on Register Link
+2024-12-06 21:07:07 INFO  TC001_AccountRegistrationTest:24 - First Name added
+2024-12-06 21:07:07 INFO  TC001_AccountRegistrationTest:26 - Last Name added
+2024-12-06 21:07:07 INFO  TC001_AccountRegistrationTest:28 - Email added
+2024-12-06 21:07:07 INFO  TC001_AccountRegistrationTest:30 - Telephone added
+2024-12-06 21:07:07 INFO  TC001_AccountRegistrationTest:34 - Password added
+2024-12-06 21:07:07 INFO  TC001_AccountRegistrationTest:36 - Conf Password added
+2024-12-06 21:07:07 INFO  TC001_AccountRegistrationTest:38 - Privacy Policy Set
+2024-12-06 21:07:08 INFO  TC001_AccountRegistrationTest:40 - Clicked on Continue Button
+2024-12-06 21:07:08 INFO  TC001_AccountRegistrationTest:42 - Validating error message
+2024-12-06 21:07:18 INFO  TC001_AccountRegistrationTest:32 - ****** Test Completed ********

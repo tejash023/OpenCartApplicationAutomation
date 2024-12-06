@@ -9,20 +9,30 @@ import org.testng.annotations.BeforeClass;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.time.Duration;
+import java.util.Properties;
 
 public class BaseClass {
 
     public WebDriver driver;
     public Logger logger;
+    public Properties properties;
 
     @BeforeClass
-    public void setUp(){
+    public void setUp() throws IOException {
+
+        //Loading Config.properties file
+        FileReader fileReader = new FileReader("./src//test//resources//config.properties");
+        properties.load(fileReader);;
+
         logger = LogManager.getLogger(this.getClass());
         driver = new ChromeDriver();
         driver.manage().deleteAllCookies();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-        driver.get("https://tutorialsninja.com/demo/");
+        driver.get(properties.getProperty("appURL"));
         logger.info("****** Test Started ********");
         driver.manage().window().maximize();
     }
