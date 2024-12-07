@@ -26,6 +26,7 @@ public class BaseClass {
 
         //Loading Config.properties file
         FileReader fileReader = new FileReader("./src//test//resources//config.properties");
+        properties = new Properties();
         properties.load(fileReader);;
 
         logger = LogManager.getLogger(this.getClass());
