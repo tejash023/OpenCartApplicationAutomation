@@ -18,7 +18,7 @@ public class DataProviders {
         int totalRows = excelUtility.getRowCount("Sheet1");
         int totalCols = excelUtility.getCellCount("Sheet1",1);
 
-        String loginData[][] = new String[totalRows][totalCols];//created for two dimension array which can store the data user and password
+        String[][] loginData = new String[totalRows][totalCols];//created for two dimension array which can store the data user and password
 
         for(int i=1;i<=totalRows;i++)  //1   //read the data from xl storing in 2-d array
         {

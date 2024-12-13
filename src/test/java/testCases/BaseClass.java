@@ -59,4 +59,9 @@ public class BaseClass {
         String generatedNumber= RandomStringUtils.randomNumeric(4);
         return generatedNumber + generatedString;
     }
+
+    public void clearCookiesAndReloadPage(){
+        driver.manage().deleteAllCookies();
+        driver.navigate().refresh();
+    }
 }
