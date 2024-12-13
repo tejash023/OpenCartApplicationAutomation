@@ -9,7 +9,7 @@ import utilities.DataProviders;
 
 public class TC003_LoginDDT extends BaseClass{
 
-    @Test(dataProvider = "LoginData", dataProviderClass = DataProviders.class)
+    @Test(dataProvider = "LoginData", dataProviderClass = DataProviders.class, groups = "DataDriven")
     public void verifyLoginDDT(String email, String password, String expectedResult){
         logger.info("***** Started TC03 Account Login Test using DDT ********");
         try{

@@ -7,7 +7,7 @@ import pageObjects.HomePage;
 
 public class TC001_AccountRegistrationTest extends BaseClass {
 
-    @Test
+    @Test(groups = {"Regression","Master"})
     public void accountRegistrationTest(){
         logger.info("********** Started TC01 Account Registration Test **********");
 

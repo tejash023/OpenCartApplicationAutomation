@@ -21,7 +21,7 @@ public class BaseClass {
     public Logger logger;
     public Properties properties;
 
-    @BeforeClass
+    @BeforeClass(groups = {"Sanity", "Regression", "Master"})
     public void setUp() throws IOException {
 
         //Loading Config.properties file
@@ -38,7 +38,7 @@ public class BaseClass {
         driver.manage().window().maximize();
     }
 
-    @AfterClass
+    @AfterClass(groups = {"Sanity", "Regression", "Master"})
     public void tearDown(){
         logger.info("****** Test Completed ********");
         driver.close();
