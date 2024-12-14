@@ -248,3 +248,17 @@
 2024-12-14 16:53:44 INFO  TC002_LoginTest:30 - Clicked Login CTA
 2024-12-14 16:53:44 INFO  TC002_LoginTest:42 - ********** Finished TC02 Account Registration Test **********
 2024-12-14 16:53:44 INFO  TC002_LoginTest:106 - ****** Test Completed ********
+2024-12-14 17:05:03 INFO  Utils:112 - [TestNG] Running:
+  C:\Users\TejashwaRajvardhan\IdeaProjects\OpenCartv0.4\master.xml
+
+2024-12-14 17:05:09 INFO  TC003_LoginDDT:108 - ****** Test Started ********
+2024-12-14 17:05:10 INFO  TC003_LoginDDT:14 - ***** Started TC03 Account Login Test using DDT ********
+2024-12-14 17:05:12 INFO  TC003_LoginDDT:68 - ********** Finished TC03 Account Login Test using DDT **********
+2024-12-14 17:05:12 INFO  TC003_LoginDDT:14 - ***** Started TC03 Account Login Test using DDT ********
+2024-12-14 17:05:15 INFO  TC003_LoginDDT:68 - ********** Finished TC03 Account Login Test using DDT **********
+2024-12-14 17:05:15 INFO  TC003_LoginDDT:14 - ***** Started TC03 Account Login Test using DDT ********
+2024-12-14 17:05:17 INFO  TC003_LoginDDT:14 - ***** Started TC03 Account Login Test using DDT ********
+2024-12-14 17:05:28 INFO  TC003_LoginDDT:68 - ********** Finished TC03 Account Login Test using DDT **********
+2024-12-14 17:05:28 INFO  TC003_LoginDDT:14 - ***** Started TC03 Account Login Test using DDT ********
+2024-12-14 17:05:28 ERROR TC003_LoginDDT:64 - Test Failed
+2024-12-14 17:05:28 INFO  TC003_LoginDDT:114 - ****** Test Completed ********
