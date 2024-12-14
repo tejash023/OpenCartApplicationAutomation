@@ -6,7 +6,7 @@
     </listeners>
     <test thread-count="5" name="Exception Tests">
         <parameter name="operatingSystem" value="Windows" />
-        <parameter name="browser" value="edge" />
+        <parameter name="browser" value="chrome" />
         <groups>
             <run>
                 <include name="Master"/>
