@@ -29,7 +29,7 @@ public class TC001_AccountRegistrationTest extends BaseClass {
             accountRegistrationPage.setTelephone(randomInteger());
             logger.info("Telephone added");
 
-            String password = "@" + randomAlphanumeric();
+            String password = randomAlphanumeric();
             accountRegistrationPage.setPassword(password);
             logger.info("Password added");
             accountRegistrationPage.setConfirmPassword(password);

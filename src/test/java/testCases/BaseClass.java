@@ -29,7 +29,7 @@ import java.util.Properties;
 
 public class BaseClass {
 
-    public WebDriver driver;
+    public static WebDriver driver;
     public Logger logger;
     public Properties properties;
 
@@ -58,22 +58,30 @@ public class BaseClass {
             }
 
             //Setting up browsers
+            String browserName;
             switch (browser.toLowerCase()){
                 case "chrome" :
-                    desiredCapabilities.setBrowserName("chrome");
+                    browserName = "chrome";
                     break;
                 case "edge" :
-                    desiredCapabilities.setBrowserName("MicrosoftEdge");
+                    browserName = "MicrosoftEdge";
                     break;
                 case "firefox" :
-                    desiredCapabilities.setBrowserName("firefox");
+                    browserName = "firefox";
                     break;
                 default:
-                    logger.error("unsupported browser type");
+                    logger.error("unsupported browser type: " + browser);
                     return;
             }
+            desiredCapabilities.setBrowserName(browserName);
 
-            driver = new RemoteWebDriver(new URL(properties.getProperty("hubURL")), desiredCapabilities);
+            // Initializing RemoteWebDriver
+            String hubUrl = properties.getProperty("hubURL");
+            if (hubUrl == null || hubUrl.isEmpty()) {
+                logger.error("Hub URL is not specified");
+                return;
+            }
+            driver = new RemoteWebDriver(new URL(hubUrl), desiredCapabilities);
         }
         //Local Execution
         if(properties.getProperty("executionEnvironment").equalsIgnoreCase("local")){
@@ -90,7 +98,7 @@ public class BaseClass {
                 default:
                     driver = new ChromeDriver();
                     logger.info("Unsupported browser parameter, hence running tests on chrome");
-                    break;
+                    return;
             }
         }
 
@@ -108,19 +116,15 @@ public class BaseClass {
     }
 
     public String randomString(){
-        String generatedString = RandomStringUtils.randomAlphabetic(5);
-        return generatedString;
+        return RandomStringUtils.randomAlphabetic(5);
     }
 
     public String randomInteger(){
-        String generatedNumber= RandomStringUtils.randomNumeric(10);
-        return generatedNumber;
+        return RandomStringUtils.randomNumeric(10);
     }
 
     public String randomAlphanumeric(){
-        String generatedString = RandomStringUtils.randomAlphabetic(4);
-        String generatedNumber= RandomStringUtils.randomNumeric(4);
-        return generatedNumber + generatedString;
+        return "@" +RandomStringUtils.randomAlphabetic(4) + RandomStringUtils.randomNumeric(4);
     }
 
     public void clearCookiesAndReloadPage(){
