@@ -6,10 +6,13 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
+import org.testng.annotations.Parameters;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -27,7 +30,8 @@ public class BaseClass {
     public Properties properties;
 
     @BeforeClass(groups = {"Sanity", "Regression", "Master"})
-    public void setUp() throws IOException {
+    @Parameters({"operatingSystem", "browser"})
+    public void setUp(String operatingSystem, String browser) throws IOException {
 
         //Loading Config.properties file
         FileReader fileReader = new FileReader("./src//test//resources//config.properties");
@@ -35,7 +39,21 @@ public class BaseClass {
         properties.load(fileReader);;
 
         logger = LogManager.getLogger(this.getClass());
-        driver = new ChromeDriver();
+        switch (browser.toLowerCase()){
+            case "chrome" :
+                driver = new ChromeDriver();
+                break;
+            case "edge" :
+                driver = new EdgeDriver();
+                break;
+            case "firefox" :
+                driver = new FirefoxDriver();
+                break;
+            default:
+                driver = new ChromeDriver();
+                logger.info("Unsupported browser parameter, hence running tests on chrome");
+                break;
+        }
         driver.manage().deleteAllCookies();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.get(properties.getProperty("appURL"));
