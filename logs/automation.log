@@ -1,264 +1,59 @@
-2024-12-14 15:58:04 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\TejashwaRajvardhan\IdeaProjects\OpenCartv0.4\grouping.xml
-
-2024-12-14 15:58:06 INFO  TC001_AccountRegistrationTest:54 - Unsupported browser parameter, hence running tests on chrome
-2024-12-14 15:58:09 INFO  TC001_AccountRegistrationTest:60 - ****** Test Started ********
-2024-12-14 15:58:09 INFO  TC001_AccountRegistrationTest:12 - ********** Started TC01 Account Registration Test **********
-2024-12-14 15:58:09 INFO  TC001_AccountRegistrationTest:17 - Clicked on My Account Link
-2024-12-14 15:58:09 INFO  TC001_AccountRegistrationTest:19 - Clicked on Register Link
-2024-12-14 15:58:09 INFO  TC001_AccountRegistrationTest:24 - First Name added
-2024-12-14 15:58:09 INFO  TC001_AccountRegistrationTest:26 - Last Name added
-2024-12-14 15:58:10 INFO  TC001_AccountRegistrationTest:28 - Email added
-2024-12-14 15:58:10 INFO  TC001_AccountRegistrationTest:30 - Telephone added
-2024-12-14 15:58:10 INFO  TC001_AccountRegistrationTest:34 - Password added
-2024-12-14 15:58:10 INFO  TC001_AccountRegistrationTest:36 - Conf Password added
-2024-12-14 15:58:10 INFO  TC001_AccountRegistrationTest:38 - Privacy Policy Set
-2024-12-14 15:58:11 INFO  TC001_AccountRegistrationTest:40 - Clicked on Continue Button
-2024-12-14 15:58:11 INFO  TC001_AccountRegistrationTest:42 - Validating error message
-2024-12-14 15:58:11 INFO  TC001_AccountRegistrationTest:50 - ********** Finished TC01 Account Registration Test **********
-2024-12-14 15:58:11 INFO  TC001_AccountRegistrationTest:66 - ****** Test Completed ********
-2024-12-14 15:58:12 INFO  TC002_LoginTest:54 - Unsupported browser parameter, hence running tests on chrome
-2024-12-14 15:58:15 INFO  TC002_LoginTest:60 - ****** Test Started ********
-2024-12-14 15:58:15 INFO  TC002_LoginTest:13 - ***** Started TC02 Account Login Test ********
-2024-12-14 15:58:15 INFO  TC002_LoginTest:19 - Clicked My Account
-2024-12-14 15:58:15 INFO  TC002_LoginTest:21 - Clicked Login link
-2024-12-14 15:58:15 INFO  TC002_LoginTest:26 - Login email entered
-2024-12-14 15:58:15 INFO  TC002_LoginTest:28 - Login password entered
-2024-12-14 15:58:16 INFO  TC002_LoginTest:30 - Clicked Login CTA
-2024-12-14 15:58:16 INFO  TC002_LoginTest:42 - ********** Finished TC02 Account Registration Test **********
-2024-12-14 15:58:16 INFO  TC002_LoginTest:66 - ****** Test Completed ********
-2024-12-14 16:24:48 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\TejashwaRajvardhan\IdeaProjects\OpenCartv0.4\grouping.xml
-
-2024-12-14 16:24:50 INFO  TC001_AccountRegistrationTest:92 - Unsupported browser parameter, hence running tests on chrome
-2024-12-14 16:24:53 INFO  TC001_AccountRegistrationTest:100 - ****** Test Started ********
-2024-12-14 16:24:53 INFO  TC001_AccountRegistrationTest:12 - ********** Started TC01 Account Registration Test **********
-2024-12-14 16:24:53 INFO  TC001_AccountRegistrationTest:17 - Clicked on My Account Link
-2024-12-14 16:24:53 INFO  TC001_AccountRegistrationTest:19 - Clicked on Register Link
-2024-12-14 16:24:53 INFO  TC001_AccountRegistrationTest:24 - First Name added
-2024-12-14 16:24:54 INFO  TC001_AccountRegistrationTest:26 - Last Name added
-2024-12-14 16:24:54 INFO  TC001_AccountRegistrationTest:28 - Email added
-2024-12-14 16:24:54 INFO  TC001_AccountRegistrationTest:30 - Telephone added
-2024-12-14 16:24:54 INFO  TC001_AccountRegistrationTest:34 - Password added
-2024-12-14 16:24:54 INFO  TC001_AccountRegistrationTest:36 - Conf Password added
-2024-12-14 16:24:54 INFO  TC001_AccountRegistrationTest:38 - Privacy Policy Set
-2024-12-14 16:24:55 INFO  TC001_AccountRegistrationTest:40 - Clicked on Continue Button
-2024-12-14 16:24:55 INFO  TC001_AccountRegistrationTest:42 - Validating error message
-2024-12-14 16:24:55 INFO  TC001_AccountRegistrationTest:50 - ********** Finished TC01 Account Registration Test **********
-2024-12-14 16:24:55 INFO  TC001_AccountRegistrationTest:106 - ****** Test Completed ********
-2024-12-14 16:24:56 INFO  TC002_LoginTest:92 - Unsupported browser parameter, hence running tests on chrome
-2024-12-14 16:24:59 INFO  TC002_LoginTest:100 - ****** Test Started ********
-2024-12-14 16:24:59 INFO  TC002_LoginTest:13 - ***** Started TC02 Account Login Test ********
-2024-12-14 16:24:59 INFO  TC002_LoginTest:19 - Clicked My Account
-2024-12-14 16:24:59 INFO  TC002_LoginTest:21 - Clicked Login link
-2024-12-14 16:25:00 INFO  TC002_LoginTest:26 - Login email entered
-2024-12-14 16:25:00 INFO  TC002_LoginTest:28 - Login password entered
-2024-12-14 16:25:01 INFO  TC002_LoginTest:30 - Clicked Login CTA
-2024-12-14 16:25:01 INFO  TC002_LoginTest:42 - ********** Finished TC02 Account Registration Test **********
-2024-12-14 16:25:01 INFO  TC002_LoginTest:106 - ****** Test Completed ********
-2024-12-14 16:25:16 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\TejashwaRajvardhan\IdeaProjects\OpenCartv0.4\grouping.xml
-
-2024-12-14 16:25:16 ERROR TC001_AccountRegistrationTest:72 - unsupported browser type
-2024-12-14 16:25:16 INFO  TC001_AccountRegistrationTest:12 - ********** Started TC01 Account Registration Test **********
-2024-12-14 16:25:16 ERROR TC001_AccountRegistrationTest:46 - Test Failed
-2024-12-14 16:25:16 INFO  TC001_AccountRegistrationTest:106 - ****** Test Completed ********
-2024-12-14 16:29:31 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\TejashwaRajvardhan\IdeaProjects\OpenCartv0.4\grouping.xml
-
-2024-12-14 16:29:31 ERROR TC001_AccountRegistrationTest:72 - unsupported browser type
-2024-12-14 16:29:31 INFO  TC001_AccountRegistrationTest:12 - ********** Started TC01 Account Registration Test **********
-2024-12-14 16:29:31 ERROR TC001_AccountRegistrationTest:46 - Test Failed
-2024-12-14 16:29:31 INFO  TC001_AccountRegistrationTest:106 - ****** Test Completed ********
-2024-12-14 16:30:00 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\TejashwaRajvardhan\IdeaProjects\OpenCartv0.4\grouping.xml
-
-2024-12-14 16:30:00 ERROR TC001_AccountRegistrationTest:72 - unsupported browser type
-2024-12-14 16:30:00 INFO  TC001_AccountRegistrationTest:12 - ********** Started TC01 Account Registration Test **********
-2024-12-14 16:30:00 ERROR TC001_AccountRegistrationTest:46 - Test Failed
-2024-12-14 16:32:33 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\TejashwaRajvardhan\IdeaProjects\OpenCartv0.4\grouping.xml
-
-2024-12-14 16:32:33 ERROR TC001_AccountRegistrationTest:72 - unsupported browser type
-2024-12-14 16:32:33 INFO  TC001_AccountRegistrationTest:12 - ********** Started TC01 Account Registration Test **********
-2024-12-14 16:32:33 ERROR TC001_AccountRegistrationTest:46 - Test Failed
-2024-12-14 16:32:33 INFO  TC001_AccountRegistrationTest:106 - ****** Test Completed ********
-2024-12-14 16:32:51 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\TejashwaRajvardhan\IdeaProjects\OpenCartv0.4\grouping.xml
-
-2024-12-14 16:32:53 INFO  TC001_AccountRegistrationTest:92 - Unsupported browser parameter, hence running tests on chrome
-2024-12-14 16:32:56 INFO  TC001_AccountRegistrationTest:100 - ****** Test Started ********
-2024-12-14 16:32:56 INFO  TC001_AccountRegistrationTest:12 - ********** Started TC01 Account Registration Test **********
-2024-12-14 16:32:56 INFO  TC001_AccountRegistrationTest:17 - Clicked on My Account Link
-2024-12-14 16:32:57 INFO  TC001_AccountRegistrationTest:19 - Clicked on Register Link
-2024-12-14 16:32:57 INFO  TC001_AccountRegistrationTest:24 - First Name added
-2024-12-14 16:32:57 INFO  TC001_AccountRegistrationTest:26 - Last Name added
-2024-12-14 16:32:57 INFO  TC001_AccountRegistrationTest:28 - Email added
-2024-12-14 16:32:57 INFO  TC001_AccountRegistrationTest:30 - Telephone added
-2024-12-14 16:32:57 INFO  TC001_AccountRegistrationTest:34 - Password added
-2024-12-14 16:32:57 INFO  TC001_AccountRegistrationTest:36 - Conf Password added
-2024-12-14 16:32:57 INFO  TC001_AccountRegistrationTest:38 - Privacy Policy Set
-2024-12-14 16:32:58 INFO  TC001_AccountRegistrationTest:40 - Clicked on Continue Button
-2024-12-14 16:32:58 INFO  TC001_AccountRegistrationTest:42 - Validating error message
-2024-12-14 16:32:58 INFO  TC001_AccountRegistrationTest:50 - ********** Finished TC01 Account Registration Test **********
-2024-12-14 16:32:58 INFO  TC001_AccountRegistrationTest:106 - ****** Test Completed ********
-2024-12-14 16:33:00 INFO  TC002_LoginTest:92 - Unsupported browser parameter, hence running tests on chrome
-2024-12-14 16:33:02 INFO  TC002_LoginTest:100 - ****** Test Started ********
-2024-12-14 16:33:02 INFO  TC002_LoginTest:13 - ***** Started TC02 Account Login Test ********
-2024-12-14 16:33:02 INFO  TC002_LoginTest:19 - Clicked My Account
-2024-12-14 16:33:03 INFO  TC002_LoginTest:21 - Clicked Login link
-2024-12-14 16:33:03 INFO  TC002_LoginTest:26 - Login email entered
-2024-12-14 16:33:03 INFO  TC002_LoginTest:28 - Login password entered
-2024-12-14 16:33:04 INFO  TC002_LoginTest:30 - Clicked Login CTA
-2024-12-14 16:33:04 INFO  TC002_LoginTest:42 - ********** Finished TC02 Account Registration Test **********
-2024-12-14 16:33:04 INFO  TC002_LoginTest:106 - ****** Test Completed ********
-2024-12-14 16:34:45 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\TejashwaRajvardhan\IdeaProjects\OpenCartv0.4\grouping.xml
-
-2024-12-14 16:34:50 INFO  TC001_AccountRegistrationTest:100 - ****** Test Started ********
-2024-12-14 16:34:50 INFO  TC001_AccountRegistrationTest:12 - ********** Started TC01 Account Registration Test **********
-2024-12-14 16:34:50 INFO  TC001_AccountRegistrationTest:17 - Clicked on My Account Link
-2024-12-14 16:34:51 INFO  TC001_AccountRegistrationTest:19 - Clicked on Register Link
-2024-12-14 16:34:51 INFO  TC001_AccountRegistrationTest:24 - First Name added
-2024-12-14 16:34:51 INFO  TC001_AccountRegistrationTest:26 - Last Name added
-2024-12-14 16:34:51 INFO  TC001_AccountRegistrationTest:28 - Email added
-2024-12-14 16:34:51 INFO  TC001_AccountRegistrationTest:30 - Telephone added
-2024-12-14 16:34:51 INFO  TC001_AccountRegistrationTest:34 - Password added
-2024-12-14 16:34:51 INFO  TC001_AccountRegistrationTest:36 - Conf Password added
-2024-12-14 16:34:52 INFO  TC001_AccountRegistrationTest:38 - Privacy Policy Set
-2024-12-14 16:34:53 INFO  TC001_AccountRegistrationTest:40 - Clicked on Continue Button
-2024-12-14 16:34:53 INFO  TC001_AccountRegistrationTest:42 - Validating error message
-2024-12-14 16:34:53 INFO  TC001_AccountRegistrationTest:50 - ********** Finished TC01 Account Registration Test **********
-2024-12-14 16:34:53 INFO  TC001_AccountRegistrationTest:106 - ****** Test Completed ********
-2024-12-14 16:34:57 INFO  TC002_LoginTest:100 - ****** Test Started ********
-2024-12-14 16:34:57 INFO  TC002_LoginTest:13 - ***** Started TC02 Account Login Test ********
-2024-12-14 16:34:57 INFO  TC002_LoginTest:19 - Clicked My Account
-2024-12-14 16:34:57 INFO  TC002_LoginTest:21 - Clicked Login link
-2024-12-14 16:34:57 INFO  TC002_LoginTest:26 - Login email entered
-2024-12-14 16:34:57 INFO  TC002_LoginTest:28 - Login password entered
-2024-12-14 16:34:58 INFO  TC002_LoginTest:30 - Clicked Login CTA
-2024-12-14 16:34:58 INFO  TC002_LoginTest:42 - ********** Finished TC02 Account Registration Test **********
-2024-12-14 16:34:58 INFO  TC002_LoginTest:106 - ****** Test Completed ********
-2024-12-14 16:41:20 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\TejashwaRajvardhan\IdeaProjects\OpenCartv0.4\crossBrowserTesting.xml
-
-2024-12-14 16:41:20 ERROR TC001_AccountRegistrationTest:72 - unsupported browser type
-2024-12-14 16:41:20 INFO  TC001_AccountRegistrationTest:12 - ********** Started TC01 Account Registration Test **********
-2024-12-14 16:41:20 ERROR TC001_AccountRegistrationTest:46 - Test Failed
-2024-12-14 16:41:20 INFO  TC001_AccountRegistrationTest:106 - ****** Test Completed ********
-2024-12-14 16:41:26 INFO  TC001_AccountRegistrationTest:100 - ****** Test Started ********
-2024-12-14 16:41:26 INFO  TC001_AccountRegistrationTest:12 - ********** Started TC01 Account Registration Test **********
-2024-12-14 16:41:26 INFO  TC001_AccountRegistrationTest:17 - Clicked on My Account Link
-2024-12-14 16:41:27 INFO  TC001_AccountRegistrationTest:19 - Clicked on Register Link
-2024-12-14 16:41:27 INFO  TC001_AccountRegistrationTest:24 - First Name added
-2024-12-14 16:41:28 INFO  TC001_AccountRegistrationTest:100 - ****** Test Started ********
-2024-12-14 16:41:28 INFO  TC001_AccountRegistrationTest:12 - ********** Started TC01 Account Registration Test **********
-2024-12-14 16:41:28 INFO  TC001_AccountRegistrationTest:26 - Last Name added
-2024-12-14 16:41:28 INFO  TC001_AccountRegistrationTest:100 - ****** Test Started ********
-2024-12-14 16:41:28 INFO  TC001_AccountRegistrationTest:12 - ********** Started TC01 Account Registration Test **********
-2024-12-14 16:41:28 INFO  TC001_AccountRegistrationTest:17 - Clicked on My Account Link
-2024-12-14 16:41:28 INFO  TC001_AccountRegistrationTest:28 - Email added
-2024-12-14 16:41:28 INFO  TC001_AccountRegistrationTest:30 - Telephone added
-2024-12-14 16:41:28 INFO  TC001_AccountRegistrationTest:17 - Clicked on My Account Link
-2024-12-14 16:41:28 INFO  TC001_AccountRegistrationTest:34 - Password added
-2024-12-14 16:41:28 INFO  TC001_AccountRegistrationTest:36 - Conf Password added
-2024-12-14 16:41:29 INFO  TC001_AccountRegistrationTest:38 - Privacy Policy Set
-2024-12-14 16:41:29 INFO  TC001_AccountRegistrationTest:19 - Clicked on Register Link
-2024-12-14 16:41:29 INFO  TC001_AccountRegistrationTest:24 - First Name added
-2024-12-14 16:41:29 INFO  TC001_AccountRegistrationTest:19 - Clicked on Register Link
-2024-12-14 16:41:29 INFO  TC001_AccountRegistrationTest:26 - Last Name added
-2024-12-14 16:41:29 INFO  TC001_AccountRegistrationTest:24 - First Name added
-2024-12-14 16:41:29 INFO  TC001_AccountRegistrationTest:26 - Last Name added
-2024-12-14 16:41:29 INFO  TC001_AccountRegistrationTest:28 - Email added
-2024-12-14 16:41:29 INFO  TC001_AccountRegistrationTest:28 - Email added
-2024-12-14 16:41:29 INFO  TC001_AccountRegistrationTest:30 - Telephone added
-2024-12-14 16:41:29 INFO  TC001_AccountRegistrationTest:34 - Password added
-2024-12-14 16:41:29 INFO  TC001_AccountRegistrationTest:36 - Conf Password added
-2024-12-14 16:41:29 INFO  TC001_AccountRegistrationTest:30 - Telephone added
-2024-12-14 16:41:29 INFO  TC001_AccountRegistrationTest:34 - Password added
-2024-12-14 16:41:29 INFO  TC001_AccountRegistrationTest:36 - Conf Password added
-2024-12-14 16:41:29 INFO  TC001_AccountRegistrationTest:38 - Privacy Policy Set
-2024-12-14 16:41:30 INFO  TC001_AccountRegistrationTest:38 - Privacy Policy Set
-2024-12-14 16:41:30 INFO  TC001_AccountRegistrationTest:40 - Clicked on Continue Button
-2024-12-14 16:41:30 INFO  TC001_AccountRegistrationTest:42 - Validating error message
-2024-12-14 16:41:30 INFO  TC001_AccountRegistrationTest:50 - ********** Finished TC01 Account Registration Test **********
-2024-12-14 16:41:30 INFO  TC001_AccountRegistrationTest:106 - ****** Test Completed ********
-2024-12-14 16:41:31 INFO  TC001_AccountRegistrationTest:40 - Clicked on Continue Button
-2024-12-14 16:41:31 INFO  TC001_AccountRegistrationTest:42 - Validating error message
-2024-12-14 16:41:31 INFO  TC001_AccountRegistrationTest:50 - ********** Finished TC01 Account Registration Test **********
-2024-12-14 16:41:31 INFO  TC001_AccountRegistrationTest:106 - ****** Test Completed ********
-2024-12-14 16:41:31 INFO  TC001_AccountRegistrationTest:40 - Clicked on Continue Button
-2024-12-14 16:41:31 INFO  TC001_AccountRegistrationTest:42 - Validating error message
-2024-12-14 16:41:31 INFO  TC001_AccountRegistrationTest:50 - ********** Finished TC01 Account Registration Test **********
-2024-12-14 16:41:31 INFO  TC001_AccountRegistrationTest:106 - ****** Test Completed ********
-2024-12-14 16:44:30 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\TejashwaRajvardhan\IdeaProjects\OpenCartv0.4\grouping.xml
-
-2024-12-14 16:44:35 INFO  TC001_AccountRegistrationTest:100 - ****** Test Started ********
-2024-12-14 16:44:35 INFO  TC001_AccountRegistrationTest:12 - ********** Started TC01 Account Registration Test **********
-2024-12-14 16:44:35 INFO  TC001_AccountRegistrationTest:17 - Clicked on My Account Link
-2024-12-14 16:44:36 INFO  TC001_AccountRegistrationTest:19 - Clicked on Register Link
-2024-12-14 16:44:36 INFO  TC001_AccountRegistrationTest:24 - First Name added
-2024-12-14 16:44:36 INFO  TC001_AccountRegistrationTest:26 - Last Name added
-2024-12-14 16:44:36 INFO  TC001_AccountRegistrationTest:28 - Email added
-2024-12-14 16:44:36 INFO  TC001_AccountRegistrationTest:30 - Telephone added
-2024-12-14 16:44:36 INFO  TC001_AccountRegistrationTest:34 - Password added
-2024-12-14 16:44:36 INFO  TC001_AccountRegistrationTest:36 - Conf Password added
-2024-12-14 16:44:36 INFO  TC001_AccountRegistrationTest:38 - Privacy Policy Set
-2024-12-14 16:44:37 INFO  TC001_AccountRegistrationTest:40 - Clicked on Continue Button
-2024-12-14 16:44:37 INFO  TC001_AccountRegistrationTest:42 - Validating error message
-2024-12-14 16:44:37 INFO  TC001_AccountRegistrationTest:50 - ********** Finished TC01 Account Registration Test **********
-2024-12-14 16:44:37 INFO  TC001_AccountRegistrationTest:106 - ****** Test Completed ********
-2024-12-14 16:44:41 INFO  TC002_LoginTest:100 - ****** Test Started ********
-2024-12-14 16:44:41 INFO  TC002_LoginTest:13 - ***** Started TC02 Account Login Test ********
-2024-12-14 16:44:42 INFO  TC002_LoginTest:19 - Clicked My Account
-2024-12-14 16:44:42 INFO  TC002_LoginTest:21 - Clicked Login link
-2024-12-14 16:44:42 INFO  TC002_LoginTest:26 - Login email entered
-2024-12-14 16:44:42 INFO  TC002_LoginTest:28 - Login password entered
-2024-12-14 16:44:43 INFO  TC002_LoginTest:30 - Clicked Login CTA
-2024-12-14 16:44:43 INFO  TC002_LoginTest:42 - ********** Finished TC02 Account Registration Test **********
-2024-12-14 16:44:43 INFO  TC002_LoginTest:106 - ****** Test Completed ********
-2024-12-14 16:52:49 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\TejashwaRajvardhan\IdeaProjects\OpenCartv0.4\grouping.xml
-
-2024-12-14 16:53:32 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\TejashwaRajvardhan\IdeaProjects\OpenCartv0.4\grouping.xml
-
-2024-12-14 16:53:36 INFO  TC001_AccountRegistrationTest:100 - ****** Test Started ********
-2024-12-14 16:53:36 INFO  TC001_AccountRegistrationTest:12 - ********** Started TC01 Account Registration Test **********
-2024-12-14 16:53:36 INFO  TC001_AccountRegistrationTest:17 - Clicked on My Account Link
-2024-12-14 16:53:37 INFO  TC001_AccountRegistrationTest:19 - Clicked on Register Link
-2024-12-14 16:53:37 INFO  TC001_AccountRegistrationTest:24 - First Name added
-2024-12-14 16:53:37 INFO  TC001_AccountRegistrationTest:26 - Last Name added
-2024-12-14 16:53:37 INFO  TC001_AccountRegistrationTest:28 - Email added
-2024-12-14 16:53:37 INFO  TC001_AccountRegistrationTest:30 - Telephone added
-2024-12-14 16:53:37 INFO  TC001_AccountRegistrationTest:34 - Password added
-2024-12-14 16:53:37 INFO  TC001_AccountRegistrationTest:36 - Conf Password added
-2024-12-14 16:53:37 INFO  TC001_AccountRegistrationTest:38 - Privacy Policy Set
-2024-12-14 16:53:38 INFO  TC001_AccountRegistrationTest:40 - Clicked on Continue Button
-2024-12-14 16:53:38 INFO  TC001_AccountRegistrationTest:42 - Validating error message
-2024-12-14 16:53:38 INFO  TC001_AccountRegistrationTest:50 - ********** Finished TC01 Account Registration Test **********
-2024-12-14 16:53:38 INFO  TC001_AccountRegistrationTest:106 - ****** Test Completed ********
-2024-12-14 16:53:42 INFO  TC002_LoginTest:100 - ****** Test Started ********
-2024-12-14 16:53:42 INFO  TC002_LoginTest:13 - ***** Started TC02 Account Login Test ********
-2024-12-14 16:53:42 INFO  TC002_LoginTest:19 - Clicked My Account
-2024-12-14 16:53:43 INFO  TC002_LoginTest:21 - Clicked Login link
-2024-12-14 16:53:43 INFO  TC002_LoginTest:26 - Login email entered
-2024-12-14 16:53:43 INFO  TC002_LoginTest:28 - Login password entered
-2024-12-14 16:53:44 INFO  TC002_LoginTest:30 - Clicked Login CTA
-2024-12-14 16:53:44 INFO  TC002_LoginTest:42 - ********** Finished TC02 Account Registration Test **********
-2024-12-14 16:53:44 INFO  TC002_LoginTest:106 - ****** Test Completed ********
-2024-12-14 17:05:03 INFO  Utils:112 - [TestNG] Running:
-  C:\Users\TejashwaRajvardhan\IdeaProjects\OpenCartv0.4\master.xml
-
-2024-12-14 17:05:09 INFO  TC003_LoginDDT:108 - ****** Test Started ********
-2024-12-14 17:05:10 INFO  TC003_LoginDDT:14 - ***** Started TC03 Account Login Test using DDT ********
-2024-12-14 17:05:12 INFO  TC003_LoginDDT:68 - ********** Finished TC03 Account Login Test using DDT **********
-2024-12-14 17:05:12 INFO  TC003_LoginDDT:14 - ***** Started TC03 Account Login Test using DDT ********
-2024-12-14 17:05:15 INFO  TC003_LoginDDT:68 - ********** Finished TC03 Account Login Test using DDT **********
-2024-12-14 17:05:15 INFO  TC003_LoginDDT:14 - ***** Started TC03 Account Login Test using DDT ********
-2024-12-14 17:05:17 INFO  TC003_LoginDDT:14 - ***** Started TC03 Account Login Test using DDT ********
-2024-12-14 17:05:28 INFO  TC003_LoginDDT:68 - ********** Finished TC03 Account Login Test using DDT **********
-2024-12-14 17:05:28 INFO  TC003_LoginDDT:14 - ***** Started TC03 Account Login Test using DDT ********
-2024-12-14 17:05:28 ERROR TC003_LoginDDT:64 - Test Failed
-2024-12-14 17:05:28 INFO  TC003_LoginDDT:114 - ****** Test Completed ********
+2024-12-15 23:33:10 INFO  TC003_LoginDDT:108 - ****** Test Started ********
+2024-12-15 23:33:12 INFO  TC003_LoginDDT:14 - ***** Started TC03 Account Login Test using DDT ********
+2024-12-15 23:33:14 INFO  TC003_LoginDDT:68 - ********** Finished TC03 Account Login Test using DDT **********
+2024-12-15 23:33:14 INFO  TC003_LoginDDT:14 - ***** Started TC03 Account Login Test using DDT ********
+2024-12-15 23:33:16 INFO  TC003_LoginDDT:68 - ********** Finished TC03 Account Login Test using DDT **********
+2024-12-15 23:33:16 INFO  TC003_LoginDDT:14 - ***** Started TC03 Account Login Test using DDT ********
+2024-12-15 23:33:19 INFO  TC003_LoginDDT:14 - ***** Started TC03 Account Login Test using DDT ********
+2024-12-15 23:33:30 INFO  TC003_LoginDDT:68 - ********** Finished TC03 Account Login Test using DDT **********
+2024-12-15 23:33:30 INFO  TC003_LoginDDT:14 - ***** Started TC03 Account Login Test using DDT ********
+2024-12-15 23:33:30 ERROR TC003_LoginDDT:64 - Test Failed
+2024-12-15 23:33:30 INFO  TC003_LoginDDT:114 - ****** Test Completed ********
+2024-12-15 23:34:25 INFO  TC001_AccountRegistrationTest:108 - ****** Test Started ********
+2024-12-15 23:34:27 INFO  TC001_AccountRegistrationTest:12 - ********** Started TC01 Account Registration Test **********
+2024-12-15 23:34:27 INFO  TC001_AccountRegistrationTest:17 - Clicked on My Account Link
+2024-12-15 23:34:28 INFO  TC001_AccountRegistrationTest:19 - Clicked on Register Link
+2024-12-15 23:34:28 INFO  TC001_AccountRegistrationTest:24 - First Name added
+2024-12-15 23:34:28 INFO  TC001_AccountRegistrationTest:26 - Last Name added
+2024-12-15 23:34:28 INFO  TC001_AccountRegistrationTest:28 - Email added
+2024-12-15 23:34:28 INFO  TC001_AccountRegistrationTest:30 - Telephone added
+2024-12-15 23:34:28 INFO  TC001_AccountRegistrationTest:34 - Password added
+2024-12-15 23:34:28 INFO  TC001_AccountRegistrationTest:36 - Conf Password added
+2024-12-15 23:34:28 INFO  TC001_AccountRegistrationTest:38 - Privacy Policy Set
+2024-12-15 23:34:30 INFO  TC001_AccountRegistrationTest:40 - Clicked on Continue Button
+2024-12-15 23:34:30 INFO  TC001_AccountRegistrationTest:42 - Validating error message
+2024-12-15 23:34:30 INFO  TC001_AccountRegistrationTest:50 - ********** Finished TC01 Account Registration Test **********
+2024-12-15 23:34:30 INFO  TC001_AccountRegistrationTest:114 - ****** Test Completed ********
+2024-12-15 23:34:35 INFO  TC002_LoginTest:108 - ****** Test Started ********
+2024-12-15 23:34:35 INFO  TC002_LoginTest:13 - ***** Started TC02 Account Login Test ********
+2024-12-15 23:34:35 INFO  TC002_LoginTest:19 - Clicked My Account
+2024-12-15 23:34:35 INFO  TC002_LoginTest:21 - Clicked Login link
+2024-12-15 23:34:36 INFO  TC002_LoginTest:26 - Login email entered
+2024-12-15 23:34:36 INFO  TC002_LoginTest:28 - Login password entered
+2024-12-15 23:34:37 INFO  TC002_LoginTest:30 - Clicked Login CTA
+2024-12-15 23:34:37 INFO  TC002_LoginTest:42 - ********** Finished TC02 Account Registration Test **********
+2024-12-15 23:34:37 INFO  TC002_LoginTest:114 - ****** Test Completed ********
+2024-12-15 23:35:47 INFO  TC001_AccountRegistrationTest:108 - ****** Test Started ********
+2024-12-15 23:35:47 INFO  TC001_AccountRegistrationTest:12 - ********** Started TC01 Account Registration Test **********
+2024-12-15 23:35:48 INFO  TC001_AccountRegistrationTest:17 - Clicked on My Account Link
+2024-12-15 23:35:48 INFO  TC001_AccountRegistrationTest:19 - Clicked on Register Link
+2024-12-15 23:35:48 INFO  TC001_AccountRegistrationTest:24 - First Name added
+2024-12-15 23:35:48 INFO  TC001_AccountRegistrationTest:26 - Last Name added
+2024-12-15 23:35:49 INFO  TC001_AccountRegistrationTest:28 - Email added
+2024-12-15 23:35:49 INFO  TC001_AccountRegistrationTest:30 - Telephone added
+2024-12-15 23:35:49 INFO  TC001_AccountRegistrationTest:34 - Password added
+2024-12-15 23:35:49 INFO  TC001_AccountRegistrationTest:36 - Conf Password added
+2024-12-15 23:35:49 INFO  TC001_AccountRegistrationTest:38 - Privacy Policy Set
+2024-12-15 23:35:50 INFO  TC001_AccountRegistrationTest:40 - Clicked on Continue Button
+2024-12-15 23:35:50 INFO  TC001_AccountRegistrationTest:42 - Validating error message
+2024-12-15 23:35:50 INFO  TC001_AccountRegistrationTest:50 - ********** Finished TC01 Account Registration Test **********
+2024-12-15 23:35:50 INFO  TC001_AccountRegistrationTest:114 - ****** Test Completed ********
+2024-12-15 23:35:54 INFO  TC002_LoginTest:108 - ****** Test Started ********
+2024-12-15 23:35:54 INFO  TC002_LoginTest:13 - ***** Started TC02 Account Login Test ********
+2024-12-15 23:35:54 INFO  TC002_LoginTest:19 - Clicked My Account
+2024-12-15 23:35:54 INFO  TC002_LoginTest:21 - Clicked Login link
+2024-12-15 23:35:55 INFO  TC002_LoginTest:26 - Login email entered
+2024-12-15 23:35:55 INFO  TC002_LoginTest:28 - Login password entered
+2024-12-15 23:35:56 INFO  TC002_LoginTest:30 - Clicked Login CTA
+2024-12-15 23:35:56 INFO  TC002_LoginTest:42 - ********** Finished TC02 Account Registration Test **********
+2024-12-15 23:35:56 INFO  TC002_LoginTest:114 - ****** Test Completed ********
